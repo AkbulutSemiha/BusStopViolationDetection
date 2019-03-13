@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DurakIhlalTespitSistemiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Arac_cezalı">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="gun" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ay" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="yıl" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="AracBilgi">
+    <Key>
+      <PropertyRef Name="Plaka" />
+    </Key>
+    <Property Name="Plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Arac_tip" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sahip_tc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Arac_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Kamera_bilgi">
+    <Key>
+      <PropertyRef Name="Kamera_kodu" />
+    </Key>
+    <Property Name="Kamera_kodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Il" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ilce" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cadde" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Arıza_durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Yetkili_Bilgi">
+    <Key>
+      <PropertyRef Name="Yetkili_kodu" />
+    </Key>
+    <Property Name="Yetkili_kodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Yetkili_adı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yetkili_soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yetkili_parola" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Yetkili_sube" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="DurakIhlalTespitiEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Arac_cezalı" EntityType="Self.Arac_cezalı" />
+    <EntitySet Name="AracBilgis" EntityType="Self.AracBilgi" />
+    <EntitySet Name="Kamera_bilgi" EntityType="Self.Kamera_bilgi" />
+    <EntitySet Name="Yetkili_Bilgi" EntityType="Self.Yetkili_Bilgi" />
+  </EntityContainer>
+</Schema>

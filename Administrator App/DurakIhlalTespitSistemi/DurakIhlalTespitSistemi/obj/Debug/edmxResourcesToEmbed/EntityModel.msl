@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DurakIhlalTespitSistemiModelStoreContainer" CdmEntityContainer="DurakIhlalTespitiEntities1">
+    <EntitySetMapping Name="Arac_cezalı">
+      <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.Arac_cezalı">
+        <MappingFragment StoreEntitySet="Arac_cezalı">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="plaka" ColumnName="plaka" />
+          <ScalarProperty Name="gun" ColumnName="gun" />
+          <ScalarProperty Name="ay" ColumnName="ay" />
+          <ScalarProperty Name="yıl" ColumnName="yıl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AracBilgis">
+      <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.AracBilgi">
+        <MappingFragment StoreEntitySet="AracBilgi">
+          <ScalarProperty Name="Plaka" ColumnName="Plaka" />
+          <ScalarProperty Name="Arac_tip" ColumnName="Arac_tip" />
+          <ScalarProperty Name="Sahip_tc" ColumnName="Sahip_tc" />
+          <ScalarProperty Name="Arac_image" ColumnName="Arac_image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kamera_bilgi">
+      <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.Kamera_bilgi">
+        <MappingFragment StoreEntitySet="Kamera_bilgi">
+          <ScalarProperty Name="Kamera_kodu" ColumnName="Kamera_kodu" />
+          <ScalarProperty Name="Il" ColumnName="Il" />
+          <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+          <ScalarProperty Name="Cadde" ColumnName="Cadde" />
+          <ScalarProperty Name="Arıza_durum" ColumnName="Arıza_durum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yetkili_Bilgi">
+      <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.Yetkili_Bilgi">
+        <MappingFragment StoreEntitySet="Yetkili_Bilgi">
+          <ScalarProperty Name="Yetkili_kodu" ColumnName="Yetkili_kodu" />
+          <ScalarProperty Name="Yetkili_adı" ColumnName="Yetkili_adı" />
+          <ScalarProperty Name="Yetkili_soyad" ColumnName="Yetkili_soyad" />
+          <ScalarProperty Name="Yetkili_parola" ColumnName="Yetkili_parola" />
+          <ScalarProperty Name="Yetkili_sube" ColumnName="Yetkili_sube" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

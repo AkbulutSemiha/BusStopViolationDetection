@@ -1,0 +1,34 @@
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csprojResolveAssemblyReference.cache
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.Form1.resources
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.Properties.Resources.resources
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csproj.GenerateResource.cache
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csproj.CoreCompileInputs.cache
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\DurakIhlalTespitSistemi.exe.config
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\DurakIhlalTespitSistemi.exe
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\DurakIhlalTespitSistemi.pdb
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.dll
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.SqlServer.dll
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\Newtonsoft.Json.dll
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.xml
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.SqlServer.xml
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\Newtonsoft.Json.xml
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csproj.CopyComplete
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.exe
+D:\TASARIM SÜREÇLERİ\PROJE BELGELERİ\DurakIhlalTespitSistemi-V1-1\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.pdb
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\DurakIhlalTespitSistemi.exe.config
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\DurakIhlalTespitSistemi.exe
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\DurakIhlalTespitSistemi.pdb
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.dll
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.xml
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csprojResolveAssemblyReference.cache
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.Form1.resources
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.Properties.Resources.resources
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csproj.GenerateResource.cache
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csproj.CoreCompileInputs.cache
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.csproj.CopyComplete
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.exe
+C:\Users\akbul\Desktop\DurakIhlalTespitSistemi\DurakIhlalTespitSistemi\obj\Debug\DurakIhlalTespitSistemi.pdb

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DurakIhlalTespitSistemiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Arac_cezalı">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="plaka" Type="nvarchar" MaxLength="50" />
+          <Property Name="gun" Type="nvarchar" MaxLength="50" />
+          <Property Name="ay" Type="nvarchar" MaxLength="50" />
+          <Property Name="yıl" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="AracBilgi">
+          <Key>
+            <PropertyRef Name="Plaka" />
+          </Key>
+          <Property Name="Plaka" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Arac_tip" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sahip_tc" Type="nvarchar" MaxLength="50" />
+          <Property Name="Arac_image" Type="image" />
+        </EntityType>
+        <EntityType Name="Kamera_bilgi">
+          <Key>
+            <PropertyRef Name="Kamera_kodu" />
+          </Key>
+          <Property Name="Kamera_kodu" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Il" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cadde" Type="nvarchar" MaxLength="50" />
+          <Property Name="Arıza_durum" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Yetkili_Bilgi">
+          <Key>
+            <PropertyRef Name="Yetkili_kodu" />
+          </Key>
+          <Property Name="Yetkili_kodu" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Yetkili_adı" Type="nvarchar" MaxLength="50" />
+          <Property Name="Yetkili_soyad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Yetkili_parola" Type="nvarchar" MaxLength="50" />
+          <Property Name="Yetkili_sube" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="DurakIhlalTespitSistemiModelStoreContainer">
+          <EntitySet Name="Arac_cezalı" EntityType="Self.Arac_cezalı" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AracBilgi" EntityType="Self.AracBilgi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kamera_bilgi" EntityType="Self.Kamera_bilgi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Yetkili_Bilgi" EntityType="Self.Yetkili_Bilgi" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DurakIhlalTespitSistemiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Arac_cezalı">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="gun" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ay" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="yıl" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="AracBilgi">
+          <Key>
+            <PropertyRef Name="Plaka" />
+          </Key>
+          <Property Name="Plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Arac_tip" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sahip_tc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Arac_image" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Kamera_bilgi">
+          <Key>
+            <PropertyRef Name="Kamera_kodu" />
+          </Key>
+          <Property Name="Kamera_kodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Il" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ilce" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cadde" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Arıza_durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Yetkili_Bilgi">
+          <Key>
+            <PropertyRef Name="Yetkili_kodu" />
+          </Key>
+          <Property Name="Yetkili_kodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Yetkili_adı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Yetkili_soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Yetkili_parola" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Yetkili_sube" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="DurakIhlalTespitiEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Arac_cezalı" EntityType="Self.Arac_cezalı" />
+          <EntitySet Name="AracBilgis" EntityType="Self.AracBilgi" />
+          <EntitySet Name="Kamera_bilgi" EntityType="Self.Kamera_bilgi" />
+          <EntitySet Name="Yetkili_Bilgi" EntityType="Self.Yetkili_Bilgi" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DurakIhlalTespitSistemiModelStoreContainer" CdmEntityContainer="DurakIhlalTespitiEntities1">
+          <EntitySetMapping Name="Arac_cezalı">
+            <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.Arac_cezalı">
+              <MappingFragment StoreEntitySet="Arac_cezalı">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="plaka" ColumnName="plaka" />
+                <ScalarProperty Name="gun" ColumnName="gun" />
+                <ScalarProperty Name="ay" ColumnName="ay" />
+                <ScalarProperty Name="yıl" ColumnName="yıl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AracBilgis">
+            <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.AracBilgi">
+              <MappingFragment StoreEntitySet="AracBilgi">
+                <ScalarProperty Name="Plaka" ColumnName="Plaka" />
+                <ScalarProperty Name="Arac_tip" ColumnName="Arac_tip" />
+                <ScalarProperty Name="Sahip_tc" ColumnName="Sahip_tc" />
+                <ScalarProperty Name="Arac_image" ColumnName="Arac_image" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kamera_bilgi">
+            <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.Kamera_bilgi">
+              <MappingFragment StoreEntitySet="Kamera_bilgi">
+                <ScalarProperty Name="Kamera_kodu" ColumnName="Kamera_kodu" />
+                <ScalarProperty Name="Il" ColumnName="Il" />
+                <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+                <ScalarProperty Name="Cadde" ColumnName="Cadde" />
+                <ScalarProperty Name="Arıza_durum" ColumnName="Arıza_durum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Yetkili_Bilgi">
+            <EntityTypeMapping TypeName="DurakIhlalTespitSistemiModel.Yetkili_Bilgi">
+              <MappingFragment StoreEntitySet="Yetkili_Bilgi">
+                <ScalarProperty Name="Yetkili_kodu" ColumnName="Yetkili_kodu" />
+                <ScalarProperty Name="Yetkili_adı" ColumnName="Yetkili_adı" />
+                <ScalarProperty Name="Yetkili_soyad" ColumnName="Yetkili_soyad" />
+                <ScalarProperty Name="Yetkili_parola" ColumnName="Yetkili_parola" />
+                <ScalarProperty Name="Yetkili_sube" ColumnName="Yetkili_sube" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

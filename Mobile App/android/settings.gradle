@@ -1,0 +1,3 @@
+rootProject.name = 'tasarim'
+
+include ':app'

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DurakIhlalTespitSistemiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Arac_cezalı">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="plaka" Type="nvarchar" MaxLength="50" />
+    <Property Name="gun" Type="nvarchar" MaxLength="50" />
+    <Property Name="ay" Type="nvarchar" MaxLength="50" />
+    <Property Name="yıl" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="AracBilgi">
+    <Key>
+      <PropertyRef Name="Plaka" />
+    </Key>
+    <Property Name="Plaka" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Arac_tip" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sahip_tc" Type="nvarchar" MaxLength="50" />
+    <Property Name="Arac_image" Type="image" />
+  </EntityType>
+  <EntityType Name="Kamera_bilgi">
+    <Key>
+      <PropertyRef Name="Kamera_kodu" />
+    </Key>
+    <Property Name="Kamera_kodu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Il" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cadde" Type="nvarchar" MaxLength="50" />
+    <Property Name="Arıza_durum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Yetkili_Bilgi">
+    <Key>
+      <PropertyRef Name="Yetkili_kodu" />
+    </Key>
+    <Property Name="Yetkili_kodu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Yetkili_adı" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yetkili_soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yetkili_parola" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yetkili_sube" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="DurakIhlalTespitSistemiModelStoreContainer">
+    <EntitySet Name="Arac_cezalı" EntityType="Self.Arac_cezalı" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AracBilgi" EntityType="Self.AracBilgi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kamera_bilgi" EntityType="Self.Kamera_bilgi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yetkili_Bilgi" EntityType="Self.Yetkili_Bilgi" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
